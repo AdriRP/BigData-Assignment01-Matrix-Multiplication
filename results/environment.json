@@ -1,0 +1,17 @@
+{
+  "cpu": "AMD Ryzen 9 7945HX with Radeon Graphics",
+  "physical_cores": 16,
+  "logical_processors": 32,
+  "ram_bytes": 33473474560,
+  "os": "Windows-11-10.0.26200-SP0",
+  "python": "CPython 3.12.0",
+  "numpy (inputs/validation only)": "2.3.5",
+  "psutil (memory measurement)": "7.2.2",
+  "gcc": "gcc (Rev4, Built by MSYS2 project) 16.2.0",
+  "c_flags": "-O2 -std=c11 -ffp-contract=off",
+  "java": "openjdk version \"21.0.10\" 2026-01-20 LTS\nOpenJDK Runtime Environment Temurin-21.0.10+7 (build 21.0.10+7-LTS)\nOpenJDK 64-Bit Server VM Temurin-21.0.10+7 (build 21.0.10+7-LTS, mixed mode, sharing)",
+  "javac": "javac 21.0.10",
+  "jvm_flags": "-Xmx4g",
+  "jvm_ergonomic_flags": "-XX:ConcGCThreads=6 -XX:G1ConcRefinementThreads=23 -XX:GCDrainStackTargetSize=64 -XX:InitialHeapSize=523023040 -XX:MarkStackSize=4194304 -XX:MaxHeapSize=4294967296 -XX:MinHeapSize=6815736 -XX:+PrintCommandLineFlags -XX:ReservedCodeCacheSize=251658240 -XX:+SegmentedCodeCache -XX:+UseCompressedOops -XX:+UseG1GC -XX:-UseLargePagesIndividualAllocation ",
+  "kernel_threads": "1 in every implementation (JVM also runs JIT/GC service threads)"
+}

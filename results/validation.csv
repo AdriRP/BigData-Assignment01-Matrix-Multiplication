@@ -1,0 +1,66 @@
+check,language,n,max_abs_error,max_error_over_bound,result
+"selftest (2x2, 3x3, A*I, I*A, A*0; exact)",c,,0.0,,PASS
+"selftest (2x2, 3x3, A*I, I*A, A*0; exact)",java,,0.0,,PASS
+"selftest (2x2, 3x3, A*I, I*A, A*0; exact)",python,,0.0,,PASS
+"vs NumPy A@B, error-bound tolerance",c,100,5.329e-15,9.669e-03,PASS
+"vs NumPy A@B, error-bound tolerance",java,100,5.329e-15,9.669e-03,PASS
+"vs NumPy A@B, error-bound tolerance",python,100,5.329e-15,9.669e-03,PASS
+bit-identical to C output,java,100,0.000e+00,,PASS
+bit-identical to C output,python,100,0.000e+00,,PASS
+"vs NumPy A@B, error-bound tolerance",c,200,8.882e-15,4.264e-03,PASS
+"vs NumPy A@B, error-bound tolerance",java,200,8.882e-15,4.264e-03,PASS
+"vs NumPy A@B, error-bound tolerance",python,200,8.882e-15,4.264e-03,PASS
+bit-identical to C output,java,200,0.000e+00,,PASS
+bit-identical to C output,python,200,0.000e+00,,PASS
+"vs NumPy A@B, error-bound tolerance",c,300,1.332e-14,2.493e-03,PASS
+"vs NumPy A@B, error-bound tolerance",java,300,1.332e-14,2.493e-03,PASS
+"vs NumPy A@B, error-bound tolerance",python,300,1.332e-14,2.493e-03,PASS
+bit-identical to C output,java,300,0.000e+00,,PASS
+bit-identical to C output,python,300,0.000e+00,,PASS
+"vs NumPy A@B, error-bound tolerance",c,400,4.263e-14,4.761e-03,PASS
+"vs NumPy A@B, error-bound tolerance",java,400,4.263e-14,4.761e-03,PASS
+"vs NumPy A@B, error-bound tolerance",python,400,4.263e-14,4.761e-03,PASS
+bit-identical to C output,java,400,0.000e+00,,PASS
+bit-identical to C output,python,400,0.000e+00,,PASS
+"vs NumPy A@B, error-bound tolerance",c,500,6.395e-14,4.739e-03,PASS
+"vs NumPy A@B, error-bound tolerance",java,500,6.395e-14,4.739e-03,PASS
+"vs NumPy A@B, error-bound tolerance",python,500,6.395e-14,4.739e-03,PASS
+bit-identical to C output,java,500,0.000e+00,,PASS
+bit-identical to C output,python,500,0.000e+00,,PASS
+"vs NumPy A@B, error-bound tolerance",c,700,7.816e-14,2.777e-03,PASS
+"vs NumPy A@B, error-bound tolerance",java,700,7.816e-14,2.777e-03,PASS
+"vs NumPy A@B, error-bound tolerance",python,700,7.816e-14,2.777e-03,PASS
+bit-identical to C output,java,700,0.000e+00,,PASS
+bit-identical to C output,python,700,0.000e+00,,PASS
+"vs NumPy A@B, error-bound tolerance",c,1000,1.350e-13,2.427e-03,PASS
+"vs NumPy A@B, error-bound tolerance",java,1000,1.350e-13,2.427e-03,PASS
+bit-identical to C output,java,1000,0.000e+00,,PASS
+"vs NumPy A@B, error-bound tolerance",c,1400,2.203e-13,1.962e-03,PASS
+"vs NumPy A@B, error-bound tolerance",java,1400,2.203e-13,1.962e-03,PASS
+bit-identical to C output,java,1400,0.000e+00,,PASS
+"vs NumPy A@B, error-bound tolerance",c,2000,2.984e-13,1.339e-03,PASS
+identical checksum in every run,c,100,,,PASS
+identical checksum in every run,c,200,,,PASS
+identical checksum in every run,c,300,,,PASS
+identical checksum in every run,c,400,,,PASS
+identical checksum in every run,c,500,,,PASS
+identical checksum in every run,c,700,,,PASS
+identical checksum in every run,c,1000,,,PASS
+identical checksum in every run,c,1400,,,PASS
+identical checksum in every run,c,2000,,,PASS
+identical checksum in every run,c,2800,,,PASS
+identical checksum in every run,java,100,,,PASS
+identical checksum in every run,java,200,,,PASS
+identical checksum in every run,java,300,,,PASS
+identical checksum in every run,java,400,,,PASS
+identical checksum in every run,java,500,,,PASS
+identical checksum in every run,java,700,,,PASS
+identical checksum in every run,java,1000,,,PASS
+identical checksum in every run,java,1400,,,PASS
+identical checksum in every run,java,2000,,,PASS
+identical checksum in every run,python,100,,,PASS
+identical checksum in every run,python,200,,,PASS
+identical checksum in every run,python,300,,,PASS
+identical checksum in every run,python,400,,,PASS
+identical checksum in every run,python,500,,,PASS
+identical checksum in every run,python,700,,,PASS

@@ -1,0 +1,14 @@
+{
+  "sizes": [100, 200, 300, 400, 500, 700, 1000, 1400, 2000, 2800],
+  "seed": 2026,
+  "value_range": [-1.0, 1.0],
+  "dtype": "float64",
+  "warmups": {"c": 1, "java": 3, "python": 1},
+  "repetitions": 5,
+  "time_budget_per_run_s": 60,
+  "memory_budget_bytes": 4000000000,
+  "c_compiler": "gcc",
+  "c_flags": ["-O2", "-std=c11", "-ffp-contract=off"],
+  "jvm_flags": ["-Xmx4g"],
+  "languages": ["c", "java", "python"]
+}
